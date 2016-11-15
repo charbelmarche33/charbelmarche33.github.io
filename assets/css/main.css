@@ -638,7 +638,7 @@ h2, header nav a, header .kicker, footer .lockup a, #h_small #nav_small a, #h_sm
 
 header {
   background: url(../img/galway2.jpg) center center;
-  background-size: cover; }
+  background-size: contain; }
   @media only screen and (min-width: 220px) {
     header {
       height: 300px; } }
@@ -704,7 +704,7 @@ header {
 
 footer {
   background: url(../img/galway3.jpg) center center;
-  background-size: cover; }
+  background-size: contain; }
   footer .lockup {
     padding: 50px 30px; }
     footer .lockup::after {
@@ -1377,7 +1377,7 @@ form {
 #h_small {
   height: 170px;
   background: url(../img/galway2.jpg) center center;
-  background-size: cover; }
+  background-size: contain; }
   #h_small #nav_small {
     float: right;
     margin: 30px 30px 30px; }
