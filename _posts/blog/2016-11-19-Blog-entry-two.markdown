@@ -23,7 +23,7 @@ In the server.py, you want to have code similar to the following:
     def mainIndex(): 
     PersonalInformation = {'Name':"Charbel Marche", 'Year':"junior", 'School':"UMW", 'GPA':"3.5"}
     return render_template('home.html',  selected='home', PersonalInformation = PersonalInformation)
-                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^These are variables that you can access in your html file
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^These are variables that you can access in your html file 
     
     #This is an example of a function that renders the template 'another.html'
     @app.route('/someotherpathonsite')
