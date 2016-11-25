@@ -15,55 +15,37 @@ After finding a good template, I copied the zip file over to my workspace then u
 
 In the server.py, you want to have code similar to the following:
 
-#import os, time, os.path, psycopg2, psycopg2.extras
-
-#from flask import Flask, render_template, request
-
-#app = Flask(__name__)
-#
-#@app.route('/')
-
-#def mainIndex():
-
-#PersonalInformation = {'Name':"Charbel Marche", 'Year':"junior", 'School':"UMW", 'GPA':"3.5"}
-
-#return render_template('home.html',  selected='home', PersonalInformation = PersonalInformation)
-
-#
-
-#This is an example of a function that renders the template 'another.html'
-
-#@app.route('/someotherpathonsite')
-
-#def functionName():
-
-#    ...some stuff..
-
-#    return render_template('another.html')
-
-#    
-#
-
-##Start the server here
-
-#if __name__ == '__main__':
-
-#app.run(host = os.getenv('IP', '0.0.0.0'), port = int(os.getenv('PORT', 8080)), debug = True)
-
+>    ```import os, time, os.path, psycopg2, psycopg2.extras
+>    from flask import Flask, render_template, request
+>    app = Flask(__name__)
+>    
+>    @app.route('/')
+>    def mainIndex(): 
+>        PersonalInformation = {'Name':"Charbel Marche", 'Year':"junior", 'School':"UMW", 'GPA':"3.5"}
+>       return render_template('home.html',  selected='home', PersonalInformation = PersonalInformation)
+                                         
+    
+>    #This is an example of a function that renders the template 'another.html'
+>    @app.route('/someotherpathonsite')
+>    def functionName():
+>        ...some stuff..
+>        return render_template('another.html')
+>        
+>        
+>    #Start the server here
+>    if __name__ == '__main__':
+>       app.run(host = os.getenv('IP', '0.0.0.0'), port = int(os.getenv('PORT', 8080)), debug = True)```
+    
 The cool thing about using flask is that you can make your website have a consistent interface, so for example we would have an layout.html file, as mentioned before. The body of that webpage can be replaced with the following code (from flask):
 
-#\{\% block content \%\} \{\% endblock \%\}
-
+>    ```{% block content %} {% endblock %}```
+    
 Then in different .html files, you can do the following:
 
-#\{\%extends "layout.html" \%\}
-
-#
-
-#\{\% block content \%\}
-
-# //Some content in here
-
-#\{\% endblock \%\}
+>    ```{%extends "layout.html" %}
+>    
+>    {% block content %}
+>     //Some content in here
+>    {% endblock %}```
 
 Now you to customize the content of your different html pages, while maintaining the a consistent and appealing interface.
