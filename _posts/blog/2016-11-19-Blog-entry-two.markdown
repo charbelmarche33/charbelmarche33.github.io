@@ -36,7 +36,9 @@ In the server.py, you want to have code similar to the following:
     if __name__ == '__main__':
        app.run(host = os.getenv('IP', '0.0.0.0'), port = int(os.getenv('PORT', 8080)), debug = True)
 ```    
+
 The cool thing about using flask is that you can make your website have a consistent interface, so for example we would have an layout.html file, as mentioned before. The body of that webpage can be replaced with the following code (from flask):
+
 ```
     \{\% block content \%\} \{\% endblock \%\}
 ```
