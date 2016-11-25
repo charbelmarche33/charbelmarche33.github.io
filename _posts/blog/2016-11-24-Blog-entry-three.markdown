@@ -6,11 +6,10 @@ categories: blog
 ---
 
 Hello guys, I am just writing this blog to potentially help anyone out here on the web that comes across the same problem as me. If you are working with flask and have a for loop of different values in a list, like so:
-{% blockquote %}
-    \{\% for room in rooms \%\}
-           <button ng-click="changeRoom('{{room.room_name}}')">{{room.room_name}}</button>
-    \{\%endfor\%\}
-{% endblockquote %}
+   
+>    \{\% for room in rooms \%\}
+>           <button ng-click="changeRoom('{{room.room_name}}')">{{room.room_name}}</button>
+>    \{\%endfor\%\}
 
 If you want to pass a different paramater into the same function in your controller.js file for each button, you have to make sure that you put the quotes around the object that you want to pass in. I literally sat there for hours trying to figure what wasn't working.
 
