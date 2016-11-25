@@ -14,6 +14,7 @@ We were working on Cloud 9, essentially and online Virtual Machine in which you 
 After finding a good template, I copied the zip file over to my workspace then unzipped it with 'unzip zipfilename.zip'. The template should have some premade html files with in it, what you will need to do is create a templates folder and a server.py file (if not already there). Move your layout.html file to the templates folder.
 
 In the server.py, you want to have code similar to the following:
+
 ```
     import os, time, os.path, psycopg2, psycopg2.extras
     from flask import Flask, render_template, request
@@ -40,16 +41,17 @@ In the server.py, you want to have code similar to the following:
 The cool thing about using flask is that you can make your website have a consistent interface, so for example we would have an layout.html file, as mentioned before. The body of that webpage can be replaced with the following code (from flask):
 
 ```
-    \{\% block content \%\} \{\% endblock \%\}
+    {% block content %} {% endblock %}
 ```
     
 Then in different .html files, you can do the following:
+
 ```
-    \{\%extends "layout.html" \%\}
+    {%extends "layout.html" %}
     
-    \{\% block content \%\}
+    {% block content %}
      //Some content in here
-    \{\% endblock \%\}
+    {% endblock %}
 ```
 
 Now you to customize the content of your different html pages, while maintaining the a consistent and appealing interface.
