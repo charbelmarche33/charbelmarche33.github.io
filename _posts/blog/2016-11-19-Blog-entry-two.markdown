@@ -38,14 +38,14 @@ In the server.py, you want to have code similar to the following:
 
 The cool thing about using flask is that you can make your website have a consistent interface, so for example we would have an layout.html file, as mentioned before. The body of that webpage can be replaced with the following code (from flask):
 
-#{% block content %} {% endblock %}
+#\{% block content %\} \{% endblock %\}
 
 Then in different .html files, you can do the following:
 
-#{%extends "layout.html" %}
+#\{%extends "layout.html" %\}
 #
-#{% block content %}
+#\{% block content %\}
 # //Some content in here
-#{% endblock %}
+#\{% endblock %\}
 
 Now you to customize the content of your different html pages, while maintaining the a consistent and appealing interface.
