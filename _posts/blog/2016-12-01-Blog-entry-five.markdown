@@ -10,7 +10,7 @@ Hello guys, I know that many developers like to have professional websites that 
 This is rather easy to do, all you need to do (if you have been following along with creating flask websites) is add a 'files' folder in the 'static' and upload the resume.docx or .pdf file in that location. Then in your html page, you can add a link to your resume by doing something similar to the following:
 
 ```   
-<a href="static/files/Resume.pdf" download>Download Resume</a>
+<a href="/static/files/Resume.pdf" download>Download Resume</a>
 ```
 
 In fact, since you are reading this: 
