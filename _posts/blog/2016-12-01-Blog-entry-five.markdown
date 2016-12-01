@@ -10,12 +10,12 @@ Hello guys, I know that many developers like to have professional websites that 
 This is rather easy to do, all you need to do (if you have been following along with creating flask websites) is add a 'files' folder in the 'static' and upload the resume.docx or .pdf file in that location. Then in your html page, you can add a link to your resume by doing something similar to the following:
 
 ```   
-<a href="/static/files/Resume.pdf" download>Download Resume</a>
+<a href="static/files/Resume.pdf" download>Download Resume</a>
 ```
 
 In fact, since you are reading this: 
 
-Here is my <a href="static/files/Resume.pdf" download>resume</a>!
+Here is my <a href="/static/files/Resume.pdf" download>resume</a>!
 
 Also, I recently found a little trick in the python documentation that allows for you to display the date that the resume (or any other file) was last updated. This can be done by using flask as seen in "Throwback to Some Basic Flask". In the function, you will need to pass render_template('someName.html') some more variables.
 
