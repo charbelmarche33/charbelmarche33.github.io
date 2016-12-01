@@ -64,5 +64,7 @@ Now you have everything you need to put your resume on your personal website. So
 
 Also Happy December to all!
 
+Citations:
+<a href='https://docs.python.org/2/library/os.path.html'>https://docs.python.org/2/library/os.path.html</a>
 
 
