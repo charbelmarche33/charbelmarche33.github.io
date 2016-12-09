@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Found a Quick Way to Allow People to Contact Me Via Email on My Site"
-date:   2016-12-01 23:51:11
+date:   2016-12-01 12:34:11
 categories: blog
 ---
 

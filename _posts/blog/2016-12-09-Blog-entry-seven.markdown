@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Multiple Submit Buttons For One Text Field"
-date:   2016-12-01 23:51:11
+date:   2016-12-07 12:51:11
 categories: blog
 ---
 
 Hi guys, so I was doing an assignment for a class of mine, and I came across a problem of having 2 sumbit buttons that run queries using text in one text field. Here is an example of a scenario where one would want to do this:
 
-<img src="whereintheworld.png"/>
+<img src="/static/files/whereintheworld.png"/>
  
 I was getting errors thrown when I would try and check which button was pressed using:
 
