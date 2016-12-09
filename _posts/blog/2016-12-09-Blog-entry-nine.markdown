@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Using Wild Cards With PSYCOPG"
-date:   2016-12-09 24:51:11
+date:   2016-12-09 23:51:11
 categories: blog
 ---
 
