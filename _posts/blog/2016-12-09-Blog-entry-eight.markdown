@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Logging In"
+title:  "Handling Logins and Session Variables"
 date:   2016-12-09 12:51:11
 categories: blog
 ---
