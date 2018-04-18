@@ -7,7 +7,7 @@ categories: blog
 
 1)	What was the project assignment? 
 
-The test plan was a test plan for the weather web application. The implementation team and I needed to make a test plan document to give to the testing team so that they can test our project. This paper was a part of my Software engineering class.  
+The test plan was a document that was required for the weather web application. The implementation team and I needed to make a test plan document to give to the testing team so that they can test our project. This paper was a part of my Software engineering class.  
 
 2)	What did you learn from the project? 
 

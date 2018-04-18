@@ -7,9 +7,9 @@ categories: blog
 
 1)	What was the project assignment? 
 
-The weather web application was made to be a web application that displays historical averages for weather for different cities in the United States on different days of the year. This app uses data from DarkSky's free API. The project was done for a professor at the University of Mary Washington as a final project in our Software Engineeering class. 
+The weather web application was made to be a web application that displays historical weather averages for different cities in the United States on different days of the year. This app uses data from DarkSky's free API. The project was done for a professor at the University of Mary Washington as a final project in our Software Engineeering class. 
 
-These were the requirements for this project:
+These were the requirements for this project (from the client):
 
 1  The system must allow the user to search for the average weather data for a given location on a specific day, going back at least 2-5 years, but preferably up to 50 years back.
 2  The system should have a drop down calendar to allow the user to choose the date, with the current date being highlighted in one color, and the chosen date being highlighted in another color.
@@ -27,7 +27,7 @@ These were the requirements for this project:
 
 2)	What did you learn from the project? 
 
-This project taught me a lot about working with groups and the software process in general. It taught me the benefits of working at the same location and time and also taught me tons about Flask and web applications.
+This project taught me a lot about working with groups and the intracicies of the software process in general. It taught me the benefits of working at the same location and time and also taught me tons about Flask and web applications.
 
 3)	What would you do differently next time? 
 
@@ -37,7 +37,7 @@ If I could do this project again from the start, I would try and work at the sam
 
 This is the github link to the project: 
 
-http://historicalweather.herokuapp.com/
+https://github.com/charbelmarche33/WeatherWebApp
 
 This is the site iteself:
 
