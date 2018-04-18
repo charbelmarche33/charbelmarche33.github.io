@@ -10,8 +10,11 @@ categories: blog
 The Zelda GBA game project was for my Computer Systems and Architechture class. We needed to create a GBA game in C. I got to work on this assignment with a partner, my suitemate. These were the only requirements.
 
 Must have:
+
 1) A scrolling, tiled background.
+
 2) At least two different sprites.
+
 3) Two functions in your game written in assembly code. Each must actually be called in the game and each must be at least eight lines of code.
 
 A link to the full assingment prompt is here:
